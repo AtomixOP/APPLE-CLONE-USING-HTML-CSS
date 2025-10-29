@@ -22,11 +22,12 @@ a {
   text-decoration: none;
 }
 #navbar {
-  background-color: rgba(0, 0, 0, 0.961);
+  background-color: rgba(0, 0, 0, 0.623);
   display: flex;
   gap: 20px;
   justify-content: center;
   padding: 15px 0;
+  position: sticky;
 }
 #Hero {
   height: 90%;
@@ -43,11 +44,14 @@ background-position: center;}
     font-weight: 600;
 }
 #Hero h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
 }
 #links button{
-padding: 15px;
+  font-size: 18px;
+  margin-top:10px ;
+padding: 15px 30px;
+color: white;
 background-color: #0077ED;
 border-radius: 500px;
 }
