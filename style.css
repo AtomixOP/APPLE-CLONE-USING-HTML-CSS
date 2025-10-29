@@ -22,15 +22,16 @@ a {
   text-decoration: none;
 }
 #navbar {
-  background-color: rgba(0, 0, 0, 0.623);
+  width: 100%;
+  background-color: rgba(7, 7, 7, 0.708);
   display: flex;
   gap: 20px;
   justify-content: center;
   padding: 15px 0;
-  position: sticky;
+  position: fixed;
 }
 #Hero {
-  height: 90%;
+  height: 85%;
   width: 100%;
   padding: 50px;
  text-align: center;
@@ -50,8 +51,27 @@ background-position: center;}
 #links button{
   font-size: 18px;
   margin-top:10px ;
-padding: 15px 30px;
+padding: 12px 30px;
 color: white;
 background-color: #0077ED;
 border-radius: 500px;
+border: 1px solid  #0077ED
+}
+#airHero {
+  height: 85%;
+  width: 100%;
+  padding: 50px;
+ text-align: center;
+  color: black;
+  background-image: url(
+https://www.apple.com/v/home/ci/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg);
+background-size: cover;
+background-position: center;}
+#airHero h1{
+    font-size: 60Px;
+    font-weight: 600;
+}
+#airHero h2{
+    font-size: 30px;
+    font-weight: 300;
 }
