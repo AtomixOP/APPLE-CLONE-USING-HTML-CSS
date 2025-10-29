@@ -1,0 +1,53 @@
+@font-face {
+  font-family: myFont; /* set name */
+  src: url(/sf-pro-text_regular.woff2); /* url of the font */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   font-family: myFont;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#navbar {
+  background-color: rgba(0, 0, 0, 0.961);
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px 0;
+}
+#Hero {
+  height: 90%;
+  width: 100%;
+  padding: 50px;
+ text-align: center;
+  color: white;
+  background-image: url(
+https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall.jpg);
+background-size: cover;
+background-position: center;}
+#Hero h1{
+    font-size: 60Px;
+    font-weight: 600;
+}
+#Hero h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+#links button{
+padding: 15px;
+background-color: #0077ED;
+border-radius: 500px;
+}
