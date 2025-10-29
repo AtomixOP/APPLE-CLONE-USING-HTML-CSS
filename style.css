@@ -1,6 +1,6 @@
 @font-face {
-  font-family: myFont; /* set name */
-  src: url('/fonts/sf-pro-text_regular.woff2') format('truetype'); /* url of the font */
+  font-family: "myFont";
+  src: url("fonts/sf-pro-text_regular.woff2") format("woff2");
 }
 * {
   margin: 0;
