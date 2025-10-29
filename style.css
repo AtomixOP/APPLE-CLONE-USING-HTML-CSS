@@ -75,3 +75,20 @@ background-position: center;}
     font-size: 30px;
     font-weight: 300;
 }
+#macHero {
+  height: 85%;
+  width: 100%;
+  padding: 50px;
+ text-align: center;
+  color: white;
+  background-image: url(https://www.apple.com/v/home/ci/images/heroes/macbook-pro-m5/hero_macbook_pro_m5__fjgmapbkxo2u_large.jpg);
+background-size: cover;
+background-position: center;}
+#macHero h1{
+    font-size: 60Px;
+    font-weight: 600;
+}
+#macHero h2{
+    font-size: 30px;
+    font-weight: 300;
+}
